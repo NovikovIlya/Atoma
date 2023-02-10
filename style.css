@@ -166,13 +166,17 @@
     color: #898CA9;
 }
 
+.bacgroudn2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 .howWorks{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 
 .container2{
@@ -208,6 +212,11 @@
     height: 500px;
 }
 
+.gradient{
+    position: absolute;
+    top:350px;
+    right: 0;
+}
 
 
 
