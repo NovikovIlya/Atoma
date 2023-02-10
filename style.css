@@ -2,9 +2,12 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: black;
+}
 
 .background{
-    
+    border-radius: 60px;
     background-image: url(./img/Landing1.png);
     background-size:cover;
     background-repeat: no-repeat;
@@ -214,7 +217,7 @@
 
 .gradient{
     position: absolute;
-    top:350px;
+    top:950px;
     right: 0;
 }
 
@@ -417,7 +420,7 @@ Home Slider
 }
 
 .swiper-image-five {
-  background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+  background-image: url(/img/slide3.png);
 }
 
 .swiper-image-six {
@@ -780,16 +783,21 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-white .swiper-pagination-bullet {
   background: #fff;
+  background: white !important;
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff;
+  background: white !important;
+  /* background: white; */
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;
+  background: white !important;
 }
 .swiper-pagination-black .swiper-pagination-bullet-active {
-  background: #000;
+  /* background: #000; */
+  background: white !important;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 15px;
@@ -810,7 +818,8 @@ button.swiper-pagination-bullet {
   position: absolute;
 }
 .swiper-pagination-progress .swiper-pagination-progressbar {
-  background: #007aff;
+  /* background: #007aff; */
+  background: wheat;
   position: absolute;
   left: 0;
   top: 0;
