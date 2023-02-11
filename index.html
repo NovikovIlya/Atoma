@@ -23,7 +23,7 @@
                                 <a href="#info" class="menu__link">Описание</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#characteristics" class="menu__link">Характиристики</a>
+                                <a href="#examples" class="menu__link">Примеры работ</a>
                             </li>
                             <li class="menu__item">
                                 <a href="#price" class="menu__link">Стоимость</a>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="buttonTitle">
-                        <a href="">
+                        <a href="#price">
                             <div class="button__text">
                                 <div class="button__text-area">Оставить заявку</div>
                             </div>
@@ -50,10 +50,7 @@
                         
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="typeWorks">
-            <div class="container">
+                
                 <div class="typeWorks__inner">
                     <div class="typeWorks__inner-one">
                         <div class="inner-oneImg">
@@ -93,12 +90,18 @@
                             <li>Буклеты</li>
                         </ul>
                         </div>
-                    </div>
                 </div>
+                    
+            </div>
+
             </div>
         </div>
     </div>
-    <div class="bacgroudn2">
+    <div class="midle"></div>
+
+    <div class="background__typeWokr"  id="info">
+    </div>
+    <div class="bacgroudn2" >
         <div class="howWorks">
             <div class="howWorks__inner-img">
                 <img class="howWorksImg" src="/img/dalee.svg" alt="">
@@ -129,7 +132,7 @@
             <img src="/img/gradient.svg" alt="">
         </div>
     </div>
-    <div class="background3">
+    <div class="background3" id="examples">
         <div class="exampleWork">
             <
             <div class="container">
@@ -221,23 +224,22 @@
                     <div class="advantages__inner-right">
                         <img class="starImg" src="/img/Star.png" alt="">
                     </div>
+                    <div class="gradient2">
+                        <img src="/img/gradient2.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="background5">
         <div class="feedback">
-            
                 <div class="feedback__inner">
                     <section class="price" id="price">
-        
                         <div class="container">
                             <div class="arrow">
                                 <p class="arrow__text">СВЯЗАТЬСЯ С НАМИ</p>
                                 <img class="arrow__img" src="/images/Line.svg" alt="">
                             </div>
-                            
-                
                             <h4 class="characteristics__head">Заинтересовались нашими услугами? Оставьте заявку и мы обязательно свяжемся с вами</h4>
                             <div class="price__inner">
                                 <form action="send_mail.php" name="form" method="POST">
@@ -277,7 +279,7 @@
                                       <textarea placeholder="Сообщение" name="message"></textarea>
                                     </div>
                                     <div class="button buttonForm ">
-                                      <input class="black-btn" type="submit" id="button" value="Отправить" />
+                                      <input class=" button__text" type="submit" id="button" value="Отправить" />
                                     </div>
                                   </form>
                             </div>
@@ -287,7 +289,28 @@
             </div>
         </div>
     </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a download class="footer__link" href="./ПолитикаКонфиденциальности.txt" >Политика конфиденциальности</a>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="https://www.instagram.com/нету/" >
+                        <img class="footer__social-img" src="/img/inst.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__contacts">
+                    <a href="tel:+7 701 997 17 97" class="footer__contacts-link">
+                        <img class="footer__contacts-img" src="/img/phone.svg" alt="">
+                        <span class="spanFooter">+7 9179107531</span>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=77019971797&text&type=phone_number&app_absent=0" class="footer__contacts-link">
+                        <img class="footer__contacts-img" src="/img/mail.svg" alt="">
+                        <span class="spanFooter">WhatsApp/79179107531</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
