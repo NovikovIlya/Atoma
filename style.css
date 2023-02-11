@@ -342,6 +342,9 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(59,59,59,0.8351
   top:2650px;
   right: 0px;
 }
+.h1Slider{
+  font-size: 80px  !important;
+}
 
 
 
