@@ -1,4 +1,21 @@
-var mySwiper = new Swiper(".swiper-container", {
+if (/Android/.test(navigator.userAgent)){
+  console.log('Я телефон');
+  var mySwiper = new Swiper(".swiper-container", {
+    direction: "vertical",
+    loop: true,
+    pagination: ".swiper-pagination",
+    grabCursor: true,
+    speed: 10000,
+    paginationClickable: false,
+    parallax: true,
+    autoplay: true,
+    effect: "slide",
+    mousewheelControl: 0
+  });
+}else{
+  console.log('я ноут');
+
+  var mySwiper = new Swiper(".swiper-container", {
     direction: "vertical",
     loop: true,
     pagination: ".swiper-pagination",
@@ -10,4 +27,18 @@ var mySwiper = new Swiper(".swiper-container", {
     effect: "slide",
     mousewheelControl: 1
   });
+} 
+
+// var mySwiper = new Swiper(".swiper-container", {
+//     direction: "vertical",
+//     loop: true,
+//     pagination: ".swiper-pagination",
+//     grabCursor: true,
+//     speed: 10000,
+//     paginationClickable: kek,
+//     parallax: true,
+//     autoplay: true,
+//     effect: "slide",
+//     mousewheelControl: 0
+//   });
   
