@@ -492,6 +492,10 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(59,59,59,0.8351
    .price__inner{
     padding: 10px
    }
+   .advantages__inner-right{
+    display: flex !important;
+    justify-content: center;
+   }
 }
 
 
