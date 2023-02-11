@@ -41,7 +41,7 @@
                             Студия web разработки AtomA
                         </div>
                     </div>
-                    <div class="button">
+                    <div class="buttonTitle">
                         <a href="">
                             <div class="button__text">
                                 <div class="button__text-area">Оставить заявку</div>
@@ -227,8 +227,63 @@
     </div>
     <div class="background5">
         <div class="feedback">
-            <div class="container">
-                <div class="feedback__inner"></div>
+            
+                <div class="feedback__inner">
+                    <section class="price" id="price">
+        
+                        <div class="container">
+                            <div class="arrow">
+                                <p class="arrow__text">СВЯЗАТЬСЯ С НАМИ</p>
+                                <img class="arrow__img" src="/images/Line.svg" alt="">
+                            </div>
+                            
+                
+                            <h4 class="characteristics__head">Заинтересовались нашими услугами? Оставьте заявку и мы обязательно свяжемся с вами</h4>
+                            <div class="price__inner">
+                                <form action="send_mail.php" name="form" method="POST">
+                                    <div class="input-box">
+                                      <input
+                                        type="text"
+                                        placeholder="Ваше имя"
+                                        name="name"
+                                        id="name"
+                                        data-reg="^[а-яА-ЯёЁa-zA-Zа-яқіәңғүұө]+$"
+                                      />
+                                      <label for="name">Только буквы</label>
+                                    </div>
+                                    <div class="input-box zero">
+                                      <input
+                                        type="text"
+                                        placeholder="Введите email"
+                                        name="email"
+                                        id="email"
+                                        data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                                        value="novikov.i.sergeevich@gmail.com"
+                                      />
+                                      <label for="email">В формате: your-name@email.com</label>
+                                    </div>
+                                    <div class="input-box">
+                                      <input
+                                        class="tel__cls"
+                                        type="text"
+                                        placeholder="Введите телефон"
+                                        name="phone"
+                                        id="phone"
+                                        data-reg="^((\+7|7|8)+([0-9]){10})$"
+                                      />
+                                      <label for="phone">В формате: 8XXXXXXXXXX или 7XXXXXXXXXX</label>
+                                    </div>
+                                    <div class="input-box message-box">
+                                      <textarea placeholder="Сообщение" name="message"></textarea>
+                                    </div>
+                                    <div class="button buttonForm ">
+                                      <input class="black-btn" type="submit" id="button" value="Отправить" />
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
