@@ -1511,7 +1511,7 @@ button.swiper-pagination-bullet {
   .left-side {
     margin-top: 50px;
     flex-direction: row;
-    width: 100%;
+    width: 150%;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -1525,7 +1525,7 @@ button.swiper-pagination-bullet {
     display: none;
   }
   .right-side {
-    width: 100%;
+    width: 150%;
     margin-left: 0;
   }
 }
