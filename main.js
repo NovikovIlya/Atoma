@@ -1,7 +1,7 @@
-if (/Android/.test(navigator.userAgent)){
+if (/Android/.test(navigator.userAgent) || /iPhone/.test(navigator.userAgent)){
   console.log('Я телефон');
   var mySwiper = new Swiper(".swiper-container", {
-    direction: "vertical",
+    direction: "horizontal",
     loop: true,
     pagination: ".swiper-pagination",
     grabCursor: true,
