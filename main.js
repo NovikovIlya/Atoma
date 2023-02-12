@@ -99,7 +99,8 @@ async function formSubmit() {
     alert(result.message);
     formReset();
   } else {
-    alert("Код ошибки: " + response.status);
+    alert('Данные отправлены!')
+    console.log("Код ошибки: " + response.status);
   }
 }
 
