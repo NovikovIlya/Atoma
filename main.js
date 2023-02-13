@@ -7,7 +7,7 @@ if (/Android/.test(navigator.userAgent) || /iPhone/.test(navigator.userAgent)){
     grabCursor: true,
     speed: 10000,
     paginationClickable: false,
-    parallax: true,
+    parallax: false,
     autoplay: true,
     effect: "slide",
     mousewheelControl: 0
@@ -101,6 +101,8 @@ async function formSubmit() {
   } else {
     alert('Данные отправлены!')
     console.log("Код ошибки: " + response.status);
+    console.log(result)
+    console.log(response)
   }
 }
 

@@ -23,7 +23,7 @@
 	$body = str_replace('%phone%', $phone, $body);
 	$body = str_replace('%message%', $message, $body);
 
-    $mail->addAddress("novikov.i.sergeevich@gmail.com");  
+    $mail->addAddress("atomastudio@gmail.com");  
 	$mail->setFrom('atoma.kz@studio.ru');
     $mail->Subject = "[Заявка с формы]";
     $mail->MsgHTML($body);
@@ -31,7 +31,7 @@
     if (!$mail->send()) {
         $message = "Ошибка отправки";
     } else {
-        $message = "Данные отправлены!";
+        $message = "Данные отправлены! Спасибо за выделенное нам время!";
     }
 	
 	$response = ["message" => $message];
