@@ -19,6 +19,7 @@ body{
     background-color: black;
     /* padding-bottom: 174px; */
     height: 100%;
+    
    
 }
 .midle{
@@ -608,6 +609,9 @@ Home Slider
 .swiper-image-two {
   background-image: url(https://cdn-edge.kwork.ru/files/portfolio/t0/15/a74e3a7e11030e0ccb18a6641bf38d1910504de0-1665492915.webp);
 }
+.h1Slider1{
+  font-size: 45px !important;
+}
 
 .swiper-image-three {
   background-image: url(img/slide2.png);
@@ -622,7 +626,7 @@ Home Slider
 }
 
 .swiper-image-six {
-  background-image: url();
+  background-image: url(https://i.ibb.co/fSdCSXx/44444.jpg);
 }
 
 .swiper-image {
@@ -1535,3 +1539,21 @@ button.swiper-pagination-bullet {
 }
 
 
+.action{
+  border: gold 2px solid
+}
+.CategorySlider{
+  color: wheat;
+}
+
+.logoImg{
+  width: 100px;
+  position: absolute;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  .logoImg{
+    top: 70px;
+    right: 38%;
+  }
+}

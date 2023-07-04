@@ -23,8 +23,8 @@
 	$body = str_replace('%phone%', $phone, $body);
 	$body = str_replace('%message%', $message, $body);
 
-    $mail->addAddress("atomastudio@gmail.com");  
-	$mail->setFrom('atoma.kz@studio.ru');
+    $mail->addAddress("novikov.i.sergeevich@gmail.com");  
+	$mail->setFrom('PrintYouHobby@studio.ru');
     $mail->Subject = "[Заявка с формы]";
     $mail->MsgHTML($body);
 

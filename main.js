@@ -139,3 +139,42 @@ text3.innerHTML = 'Yahoo'
 
 const text4 = document.querySelector('#mailtoui-button-text-4')
 text4.innerHTML = 'Приложение по-умолчанию'
+
+
+
+
+const typeWorkOne = document.querySelector('.category-1 ')
+typeWorkOne.classList.add('action')
+document.querySelectorAll('.n2-section-smartslider')[1].classList.add('zero')
+document.querySelectorAll('.n2-section-smartslider')[2].classList.add('zero')
+typeWorkOne.addEventListener('click', typeWorkOneAction)
+function typeWorkOneAction(){
+  typeWorkOne.classList.add('action')
+  typeWorkTwo.classList.remove('action')
+  typeWorkThree.classList.remove('action')
+  document.querySelectorAll('.n2-section-smartslider')[0].classList.remove('zero')
+  document.querySelectorAll('.n2-section-smartslider')[1].classList.add('zero')
+  document.querySelectorAll('.n2-section-smartslider')[2].classList.add('zero')
+}
+
+const typeWorkTwo = document.querySelector('.category-2')
+typeWorkTwo.addEventListener('click', typeWorkOneActionTwo)
+function typeWorkOneActionTwo(){
+  typeWorkTwo.classList.add('action')
+  typeWorkOne.classList.remove('action')
+  typeWorkThree.classList.remove('action')
+  document.querySelectorAll('.n2-section-smartslider')[1].classList.remove('zero')
+  document.querySelectorAll('.n2-section-smartslider')[0].classList.add('zero')
+  document.querySelectorAll('.n2-section-smartslider')[2].classList.add('zero')
+}
+
+const typeWorkThree = document.querySelector('.category-3')
+typeWorkThree.addEventListener('click', typeWorkOneActionThree)
+function typeWorkOneActionThree(){
+  typeWorkThree.classList.add('action')
+  typeWorkOne.classList.remove('action')
+  typeWorkTwo.classList.remove('action')
+  document.querySelectorAll('.n2-section-smartslider')[2].classList.remove('zero')
+  document.querySelectorAll('.n2-section-smartslider')[0].classList.add('zero')
+  document.querySelectorAll('.n2-section-smartslider')[1].classList.add('zero')
+}
